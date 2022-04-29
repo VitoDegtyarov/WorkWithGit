@@ -7,16 +7,17 @@ namespace WorkWithGit
         static void Main(string[] args)
         {
 
+            #region
             //DateTime time = DateTime.ParseExact("04|2016|05", "MM|yyyy|dd", null);
 
-            DateTime time = DateTime.ParseExact(Console.ReadLine(), "dd,mm,yyyy", null);
-            Console.WriteLine($"The input day: {time.ToShortDateString()}");
+            //DateTime time = DateTime.ParseExact(Console.ReadLine(), "dd,mm,yyyy", null);
+            //Console.WriteLine($"The input day: {time.ToShortDateString()}");
 
-            if (time.DayOfWeek == DayOfWeek.Sunday && time.DayOfWeek == DayOfWeek.Saturday)
-            {
-                Console.WriteLine("Its weekend!");
-            }else
-                Console.WriteLine("Work mthf");
+            //if (time.DayOfWeek == DayOfWeek.Sunday && time.DayOfWeek == DayOfWeek.Saturday)
+            //{
+            //    Console.WriteLine("Its weekend!");
+            //}else
+            //    Console.WriteLine("Work mthf");
 
             //if (DateTime.Now < time)
             //{
@@ -24,6 +25,7 @@ namespace WorkWithGit
             //}
             //TImeSpan??? ( bolshe pro vremya)
             //var test = DateTime.Now - time;
+            #endregion
         }
     }
 }
